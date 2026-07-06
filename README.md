@@ -13,7 +13,7 @@ An intelligent IT support ticket triage agent project built using the Google Age
 1.  **Clone the repository:**
     ```bash
     git clone <repo-url>
-    cd opsflow-ticket-triage
+    cd OpsFlow-intelligent-ticket-triage-system
     ```
 
 2.  **Set up environment configuration:**
@@ -128,36 +128,10 @@ graph TD
         ```
         Then restart using `make playground`.
 
-## Push to GitHub
-
-1. Create a new repo at https://github.com/new
-   - Name: opsflow-ticket-triage
-   - Visibility: Public or Private
-   - Do NOT initialize with README (you already have one)
-
-2. In your terminal, navigate into your project folder:
-   cd opsflow-ticket-triage
-   git init
-   git add .
-   git commit -m "Initial commit: opsflow-ticket-triage ADK agent"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/opsflow-ticket-triage.git
-   git push -u origin main
-
-3. Verify .gitignore includes:
-   .env          ← your API key — must NEVER be pushed
-   .venv/
-   __pycache__/
-   *.pyc
-   .adk/
-
-⚠ NEVER push .env to GitHub. Your API key will be exposed publicly.
 
 ## Assets
 
-*   [Workflow Diagram](file:///d:/adk-workspace/opsflow-ticket-triage/assets/architecture_diagram.png)
-*   [Cover Banner](file:///d:/adk-workspace/opsflow-ticket-triage/assets/cover_page_banner.png)
+![Workflow Diagram](assets/architecture_diagram.png)
 
-## Demo Script
+![Cover Banner](assets/cover_page_banner.png)
 
-*   [Spoken Narration Script](file:///d:/adk-workspace/opsflow-ticket-triage/DEMO_SCRIPT.txt)
