@@ -7,7 +7,7 @@ __pycache__/
 /tmp
 /out-tsc
 /bazel-out
-
+DEMO_SCRIPT.txt
 # C extensions
 *.so
 
